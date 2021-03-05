@@ -1,0 +1,36 @@
+@media screen and (max-width: 750px)
+  thead
+    display: none
+  tbody td
+    display: block
+  tbody td::before
+    content: attr(data-th)
+    display: block
+
+img
+  width: 130px
+  height: 130px
+  margin-top: 25px
+
+td
+  text-align: center
+  vertical-align: middle
+  border: #009999 10px solid
+  border-radius: 15px
+  -moz-border-radius: 28px
+  margin-bottom: 25px
+
+td:hover
+  border: #9a2d9b 10px solid
+  color: Purple
+  font-weight: bold
+table
+    border-collapse: separate
+    border-spacing: 1cm 1em
+span
+  font-size: .9em
+  text-align: center
+
+hr
+  width: 250px
+  border: 1px dashed grey
